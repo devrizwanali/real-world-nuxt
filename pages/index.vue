@@ -1,6 +1,7 @@
 <template>
   <div>
      <h1>Events</h1>
+     why not rendering first time
         <EventCard
           v-for="(event, index) in events"
           :key="index"

@@ -5,6 +5,7 @@
   </div>
 </template>
 <script>
+  import EventCard from '~/components/EventCard'
 import NavBar from '~/components/NavBar.vue'
 export default {
   head() {
@@ -20,7 +21,8 @@ export default {
  }
 },  
   components: {
-    NavBar
+    NavBar,
+    EventCard
   }
 }
 </script>
